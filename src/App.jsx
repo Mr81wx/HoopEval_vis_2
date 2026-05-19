@@ -27,7 +27,7 @@ import ShowChartRoundedIcon from "@mui/icons-material/ShowChartRounded";
 import ViewInArRoundedIcon from "@mui/icons-material/ViewInArRounded";
 import { DrawPlayers } from "./components/DrawPlayers";
 import ValueChart from "./components/ValueChart";
-import { dataFiles } from "./dataFiles";
+import { dataFiles } from "virtual:hoopeval-data-files";
 
 const dashboardTheme = createTheme({
   palette: {
